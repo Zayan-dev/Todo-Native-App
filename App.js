@@ -1,11 +1,13 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import ListScreen from './screens/ListScreen';
+import AccessCam from './screens/AccessCam';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ListScreen />
+      {/* <ListScreen /> */}
+      <AccessCam></AccessCam>
     </View>
   );
 }
